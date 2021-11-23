@@ -1,0 +1,43 @@
+h1{
+    color: aqua;
+    font-size: 2.5em;
+    font-family: Arial, Tahoma, Lato,sans-serif;
+    font-style: bold;
+}
+h2{
+    color: tomato;
+    font-size: 2em;
+    font-family: Tahoma, Lato,sans-serif;
+}
+p{
+    font-family: "Open sans",sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+main{
+    background: #2ed6db url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+article{
+    background-color: rgba(217,185,91,0.6);
+
+}
+/*Table styling*/
+table{
+    border-collapse: collapse;
+    width:100%
+}
+th,td{
+    border: 1px solid #000;
+}
+tr:nth-child(2n+2){
+    background-color: #eee;
+}
+tr:hover{
+    background-color: coral;
+}
